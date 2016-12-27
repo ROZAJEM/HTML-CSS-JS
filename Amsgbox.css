@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors jsk (1326824396@qq.com)
+ * @date    2015-04-27 13:42:06
+ * @version v1.0
+ */
+
+/* ---------- jsk Dialog ( MessageBox ) ---------- */
+.AmsgMask {
+	position: fixed;
+	background-color: #060606;
+	opacity: 0.5;	
+	z-index: 98;
+	width: 100%;
+	height: 100%;
+	_position: absolute;
+	_background-color: transparent;
+	top: 0;
+    -webkit-opacity: 0.5;  
+    -moz-opacity: 0.5;  
+    -khtml-opacity: 0.5;  
+    opacity: .5;  
+    filter:alpha(opacity=50);  
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";  
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);  
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgMaskedBorder {
+	position: fixed;
+	_position: absolute;
+	background-color: #060606;
+	padding: 10px;
+	
+z-index: 99; 
+    -webkit-opacity: 0.5;  
+    -moz-opacity: 0.5;  
+    -khtml-opacity: 0.5;   
+    opacity: .5;  
+    filter:alpha(opacity=50);  
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50); 
+	font-family:"ALKATIP Basma Tom"; 
+} 
+.AmsgShow {
+	position: fixed;
+	_position: absolute;
+	background-color: white;
+	z-index: 100;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgBottom {
+	float: right;
+	width: 100%;
+	height: 54px;
+	position: absolute;
+	bottom: 0;
+	padding: 0px;
+	margin: 0px;
+	font-size: 0px;
+	+margin-right: -680px;
+	_margin-right: -0px;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgContent {
+	float: right;
+	width: 96%;
+	padding:0px 2%;
+	position: absolute;
+	top: 0;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgContent span.ico_state {
+	float: right;
+	height: 143px;
+	width: 100%;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgContent span.Btima {
+	float: right;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 22px;
+	text-align: center;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgContent span.Sinfo {
+	float: right;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgContent span.ico_state div {
+	margin: 0px auto;
+	width: 142px;
+	height: 143px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgContent span.ico_state div.Aok_ico {
+	background-image: url("../images/Amsg/Aok_ico.jpg");
+}
+.AmsgShow div.MsgContent span.ico_state div.Awarn_ico {
+	background-image: url("../images/Amsg/Awarn_ico.jpg");
+}
+.AmsgShow div.MsgBottom span.leftline {
+	float: left;
+	width: 50px;
+	height: 6px;
+	font-size: 0px;
+	padding:0px;
+	margin:0px;
+	border-bottom: 1px solid #e3e3e3;
+	margin-top: 8px;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgBottom span.atext {
+	float: left;
+	width: 145px;
+	height: 40px;
+	line-height: 30px;
+	color: #e3e3e3;
+	text-align: center;
+	font-size: 16px;
+	padding: 0px 5px;
+	font-family:"ALKATIP Basma Tom";
+}
+.AmsgShow div.MsgBottom span.rightline {
+	float: left;
+	height: 6px;
+	font-size: 0px;
+	padding:0px;
+	margin:0px;
+	border-bottom: 1px solid #e3e3e3;
+	margin-top: 8px;
+	font-family:"ALKATIP Basma Tom";
+}
+i.redshape {
+	float: left;
+	width: 18px;
+	height: 18px;
+	background-color: #cc0033;
+	margin-left: 5px;
+	*margin-left: 0px;
+	margin-top: 6px;
+	font-family:"ALKATIP Basma Tom";
+}
+i.blkshape {
+	float: left;
+	width: 18px;
+	height: 18px;
+	background-color: #080813;
+	margin-left: 0px;
+	margin-top: 25px;
+	font-family:"ALKATIP Basma Tom";
+}
+/* ---------- jsk Dialog ( MessageBox ) ---------- */
+
+
+
+
+
+.H456MGT { height: 456px;top: 50%; margin-top: -228px; }
+.W705MGR { width: 705px; right: 50%;margin-right: -361.5px; }
+
+.H456MGT10 { height: 456px;top: 50%; margin-top: -218px; }
+.W705MGR10 { width: 705px; right: 50%;margin-right: -351.5px; }
+
+/* ----------- Biket Xeritisi ---------------- */
+.W1160MGR { width: 1160px; right: 50%; margin-right: -590px;}
+.H560MGT  { height: 560px; top: 50%; margin-top:-290px; }
+
+.W1160MGR10 { width: 1160px; right: 50%; margin-right: -580px;background-color: #f0f0f0 !important;}
+.H560MGT10  { height: 560px; top: 50%; margin-top:-280px; }
+.H560MGT10 div.MsgBottom span.rightline { width: 900px; }
+/* ----------- Biket Xeritisi ---------------- */
+
+/* ----------- Add Adres ---------------- */
+.H422MGT { height: 422px;top: 50%; margin-top: -228px; }
+.W697MGR { width: 697px; right: 50%; margin-right: -238.5px; }
+
+.H422MGT10 { height: 422px;top: 50%; margin-top: -218px; }
+.W697MGR10 { width: 697px; right: 50%; margin-right: -228.5px; }
+/* ----------- Add Adres ---------------- */
+/* ----------- Add show_passpw ---------------- */
+.H240MGT { height: 240px;top: 50%; margin-top: -228px; }
+.W520MGR { width: 697px; right: 50%; margin-right: -238.5px; }
+/* ----------- Add show_passpw ---------------- */
+/* ----------- Add Adres ok ---------------- */
+.H392MGT { height: 392px;top: 50%; margin-top: -228px; }
+.W500MGR { width: 500px; right: 50%; margin-right: -141.5px; }
+
+.H392MGT10 { height: 392px;top: 50%; margin-top: -218px; }
+.W500MGR10 { width: 500px; right: 50%; margin-right: -131.5px; }
+
+
+.W500MGR10 div.MsgBottom span.rightline {
+	width: 240px !important;
+}
+.W500MGR10 div.MsgContent span.ico_state {
+	margin-top: 50px !important;
+}
+/* ----------- Add Adres ---------------- */
+
+
+/* ----------- Bind Bank Card Adres ok ---------------- */
+.H557MGT { height: 545px;top: 50%; margin-top: -228px; }
+.W717MGR { width: 717px; right: 50%; margin-right: -248.5px; }
+
+.H557MGT10 { height: 545px;top: 50%; margin-top: -218px; }
+.W717MGR10 { width: 717px; right: 50%; margin-right: -238.5px; }
+
+
+.W717MGR10 div.MsgBottom span.rightline {
+	width: 240px !important;
+}
+.W717MGR10 div.MsgContent span.ico_state {
+	margin-top: 50px !important;
+}
+.W717MGR10 .MapTitle {
+	width: 685px;
+}
+
+/* ----------- Bind cancel_order ---------------- */
+.H606MGT { height: 526px;top: 50%; margin-top: -228px; }
+.W460MGR { width: 460px; right: 50%; margin-right: -248.5px; }
+.H606MGT10 { height: 526px;top: 50%; margin-top: -218px; }
+.W460MGR10 { width: 460px; right: 50%; margin-right: -238.5px; }
+
+.W460MGR10 div.MsgBottom span.rightline {
+	width: 240px !important;
+}
+.W460MGR10 div.MsgContent span.ico_state {
+	margin-top: 50px !important;
+}
+.W460MGR10 .MapTitle {
+	width: 420px;
+}
+.W460MGR10 .MapTitle span{width:380px}
+/* ----------- Add Adres ---------------- */
+
+
+/* ----------- Parol ozgertish ---------------- */
+
+.H480MGT { height: 480px;top: 50%; margin-top: -228px; }
+.W740MGR { width: 740px; right: 50%; margin-right: -259.5px; }
+
+.H480MGT10 { height: 480px;top: 50%; margin-top: -218px; }
+.W740MGR10 { width: 740px; right: 50%; margin-right: -249.5px; }
+
+.W740MGR10 div.MsgBottom span.rightline {
+	width: 240px !important;
+}
+.W740MGR10 div.MsgContent span.ico_state {
+	margin-top: 50px !important;
+}
+.W740MGR10 .MapTitle {
+	width: 705px;
+}
+.W740MGR10 .MapTitle span { width: 500px; }
+/* ----------- Parol ozgertish ---------------- */
+
+
+
+/* ----------- Parol ozgertish ---------------- */
+.H495MGT { height: 495px;top: 50%; margin-top: -228px; }
+.W744MGR { width: 744px; right: 50%; margin-right: -416px; }
+
+.H495MGT10 { height: 495px;top: 50%; margin-top: -218px; }
+.W744MGR10 { width: 744px; right: 50%; margin-right: -406px; }
+
+.W744MGR10 div.MsgBottom span.rightline {
+	width: 488px !important;
+}
+.W744MGR10 div.MsgContent span.ico_state {
+	margin-top: 50px !important;
+}
+.W744MGR10 .MapTitle {
+	width: 705px;
+}
+.W744MGR10 .MapTitle span { width: 500px;text-align: right; }
+/* ----------- Parol ozgertish ---------------- */
+
+
+div.adresQosh {
+	display: none; 
+	float: right;
+	width: 660px;
+	background-color: #fff;
+	position: fixed;
+	_position: absolute;
+	z-index: 101;
+	right: 50%;
+	margin-right: -208px;
+	top: 50%;
+	margin-top: -115px;
+	*right: 50%;
+	*margin-right: -208px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul {
+	float: right;
+	width: 660px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li {
+	float: right;
+	width: 640px;
+	padding: 0px 10px;
+	margin: 2px 0px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li span.label {
+	float: right;
+	width: 85px;
+	height: 50px;
+	line-height: 55px;
+	_line-height: 50px;
+	font-size: 14px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li input.inp {
+	float: right;
+	width: 186px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #dcdddd;
+	padding: 0px 8px;
+	margin: 0px;
+	margin-top: 6px;
+	text-align: right;
+	direction: ltr;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li select {
+	float: right;
+	width: 175px;
+	height: 38px;
+	margin-top: 6px;
+	margin-left: 10px;
+	border:1px solid #dcdddd;
+	padding: 5px;
+	*margin-top: 14px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li textarea {
+	float: right;
+	border: 1px solid #dcdddd;
+	padding: 5px;
+	width: 628px;
+	resize:none;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li input.save,div.adresQosh ul li input.reset {
+	float: right;
+	padding: 0px 30px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	*border:none;
+	border:0;
+	background-color: #cc0033;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-right: 200px;
+	*margin-right: 150px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.adresQosh ul li input.reset {
+	margin-right: 5px !important;
+}
+.input_keyb{
+	font-style: normal;
+	font-weight: normal;
+	height: 38px;
+	width: 35px;
+	line-height: 38px;
+	border-top: solid 1px #dcdddd;
+	border-left: solid 1px #dcdddd;
+	border-bottom: solid 1px #dcdddd;
+	float: right;
+	margin-top: 6px;
+	font-family:"ALKATIP Basma Tom";
+}
+.input_keyb img{
+	height:30px;
+	width:30px;
+	float:right;
+	margin-top:6px;
+	position:absolute;
+	left:365px;
+	top:6px;
+	cursor:pointer;
+	font-family:"ALKATIP Basma Tom";
+}
+.textarea_keyb{
+	font-style:normal;
+	font-weight:normal;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	font-family:"ALKATIP Basma Tom";
+}
+.textarea_keyb img{
+	height:30px;
+	width:30px;
+	float:right;
+	margin-top:33px;
+	position:absolute;
+	left:14px;
+	cursor:pointer;
+	font-family:"ALKATIP Basma Tom";
+	
+}
+#accept_name{
+	border:none;
+	border-top:solid 1px #dcdddd;
+	border-right:solid 1px #dcdddd;
+	border-bottom:solid 1px #dcdddd;
+	width:150px;
+	height:38px;
+	line-height:38px;
+	direction: rtl;
+	text-align: right;
+	font-family:"ALKATIP Basma Tom";
+}

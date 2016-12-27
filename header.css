@@ -1,0 +1,470 @@
+@charset "UTF-8";
+
+/**
+ * @authors jsk (1326824396@qq.com)
+ * @date    2015-04-23 12:25:37
+ * @version V1.0
+**/
+
+div.Usti {
+	float: right;
+	width: 100%;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Usti span.slogin,div.Usti span.sCart {
+	width: 50%;
+}
+i.spr {
+	float: right;
+	_font-size: 0px;
+	height: 20px;
+	margin-top: 11px;
+	margin-right: 6px;	
+	margin-left: 5px;
+	border-right: 1px solid #b9b9ba;
+	font-family:"ALKATIP Basma Tom"
+}
+i.home_ico {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background-image: url("../images/header/home_aico.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	margin-top: 11px;
+	margin-right: 6px;
+	_font-size: 0px;
+	cursor: pointer;
+	margin-left: 10px;
+	font-family:"ALKATIP Basma Tom"
+}
+
+i.home_ico:hover {
+	background-position: 0px -20px;
+}
+
+div.Usti span.slogin a.login,div.Usti span.slogin a.regin {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 6px;
+	padding: 0px 5px;
+	color: #7e7e7f;
+	cursor: pointer;
+	font-family:"ALKATIP Basma Tom"
+}
+
+div.Usti span.sCart i.spr { float: left;}
+div.Usti span.sCart a {
+	float: left;
+	padding: 0px 10px;
+	margin-top:6px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	color: #7e7e7f;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Usti span a:hover {
+	color: #cc0033 !important;
+}
+div.Usti span.sCart a span,div.Usti span.sCart a i {
+	float: right;
+}
+div.Usti span.sCart a span {
+	_margin-right: 5px;
+}
+div.Usti span.sCart a.site_label,div.Usti span.sCart a.mobi_label { 
+	_width:105px;
+	*width:108px; 
+}
+div.Usti span.sCart a i.phone {
+	height: 23px;
+	width: 15px;
+	background-image: url("../images/header/phone_aico.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+	margin-left: 6px;
+	font-family:"ALKATIP Basma Tom"
+	
+}
+div.Usti span.sCart a i.map {
+	height: 17px;
+	width: 17px;
+	background-image: url("../images/header/category_aico.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 6px;
+	_margin-left: 3px;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Usti span.sCart a i.mal_harwa{
+	height: 17px;
+	width: 17px;
+	background-image: url("../images/header/map_harwal.png");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	margin-top: 6px;
+	margin-left: 6px;
+	_margin-left: 3px;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Usti span.sCart a:hover i.map {
+	background-position: 0px -17px;
+}
+div.Usti span.sCart a:hover span {
+	color: #cc0033;
+}
+div.Usti span.sCart a:hover i.phone {
+	background-position: 0px -23px;
+}
+div.Usti span.sCart a:hover i.mal_harwa{
+	background-position: 0px -17px;
+}
+
+
+
+
+/* ---------------------- Logo & Search & Cart ---------------------- */
+div.Header {
+	margin:0px auto;
+	padding:0px;
+	width: 1200px;
+	height:150px;
+	overflow:hidden;
+	font-family:"ALKATIP Basma Tom"
+}
+
+div.Header div.logo{
+	float:right;
+	padding-top:43px;
+	width: 410px;
+	height:107px;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Header div.logo img {
+	float: right;
+}
+div.Header div.search{
+	float:right;
+	width: 581px;
+	height:150px;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Header div.search div.izdax{
+	padding-top:49px;
+	float: right;
+	width:449px;
+	height:70px;
+	font-family:"ALKATIP Basma Tom"
+	
+}
+div.Header div.search div.izdax div.top {
+	float: right;
+	width:449px;
+	height:39px;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Header div.search div.izdax div.top div.fr{
+	  float:right;
+	  width:3px;
+	  height:39px;
+	  font-family:"ALKATIP Basma Tom"
+	/*background:url("../images/home/h_search_r.png") right center no-repeat;*/
+}
+div.Header div.search div.izdax div.top div.fl{
+	  float:right;	
+	  width:6px;
+	  height:39px;
+	  background:url("../images/home/h_search_l.png") left center no-repeat;
+	  margin-left:1px;
+	  font-family:"ALKATIP Basma Tom" 
+}
+div.Header div.search div.izdax div.top div.mid{
+	float:right;
+	width:439px;
+	height:37px;
+	font-family:"ALKATIP Basma Tom"
+ 	
+}
+
+div.Header div.search div.izdax div.top div.mid .txt{
+	float:right;
+	margin:0;
+	padding:0 10px 0 0;
+	border:0;
+	width:381px;
+	height:35px;
+	line-height:35px;
+	outline:none;
+	border-top:1px solid #dcdddd;
+	border-bottom:1px solid #dcdddd;
+	border-right:1px solid #dcdddd;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+	margin-top:1px;
+	font-family:"ALKATIP Basma Tom" 
+}
+div.Header div.search div.izdax div.top div.mid .btn{
+	float:right;
+	margin:0;
+	padding:0;
+	border:0;
+	width:47px;
+	height:37px;
+	outline:none;
+	background:url("../images/home/h_search_btn.png")  center no-repeat #cc0033;
+	margin-top:1px;
+	font-family:"ALKATIP Basma Tom" 
+}
+
+div.Header div.search div.izdax div.top div.mid ul.auto_list{
+	display: block;
+  background-color: white;
+  border: 1px solid rgb(231, 231, 231);
+  line-height: 36px;
+  z-index: 10;
+  position: absolute;
+  width: 391px;
+  margin-right: -1px;
+  margin-top: 37px;
+  text-align:right;
+  font-family:"ALKATIP Basma Tom"
+}
+
+div.Header div.search div.izdax div.top div.mid ul.auto_list li{
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+div.Header div.search div.izdax div.top div.mid ul.auto_list li.hover{background:#cc0033;}
+div.Header div.search div.izdax div.top div.mid ul.auto_list li.hover a,div.Header div.search div.izdax div.top div.mid ul.auto_list li.hover i{color:#fff}
+div.Header div.search div.izdax div.top div.mid ul.auto_list li a{
+	color: #cc0033;
+	margin-right: 10px;
+}
+
+div.Header div.search div.izdax div.top div.mid ul.auto_list li i{
+	color: gray;
+	float: left;
+	margin-left: 10px;
+	font-family:"ALKATIP Basma Tom"
+}
+
+div.Header div.search div.izdax div.bottom{
+	width:449px;
+	height:31px;
+	float: right;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Header div.search div.izdax div.bottom a{
+	  float: right;
+	  padding:5px 13px 0 0;
+	  height:28px;
+	  line-height:28px;	
+	  direction: rtl;
+	  font-size: 13px;
+	  color:#a6a3a4;
+	  text-decoration: none;
+	  font-family:"ALKATIP Basma Tom"
+}
+div.Header div.col_1{
+	float:right;
+	padding-top:50px;
+	width: 209px;
+	height:100px;
+	font-family:"ALKATIP Basma Tom"
+
+}
+div.Header div.col_1 .user_icon{
+	float:right;
+	width:60px;
+	height:41px;
+	cursor:pointer;
+	background:url("../images/home/h_user.png") bottom  center no-repeat;
+	font-family:"ALKATIP Basma Tom"
+}
+div.Header div.col_1 .user_icon:hover{
+background:url("../images/home/h_user.png") top  center no-repeat;
+}
+div.Header div.col_1 .shou_icon{
+	float:right;
+	width:60px;
+	height:41px;
+	cursor:pointer;	
+	background:url("../images/home/h_shou.png") bottom   center no-repeat;
+	font-family:"ALKATIP Basma Tom";
+}
+div.Header div.col_1 .shou_icon:hover{
+background:url("../images/home/h_shou.png") top   center no-repeat;
+}
+div.Header div.col_1 .cart_icon{
+	float:right;
+	width:60px;
+	height:41px;
+	cursor:pointer;
+	background:url("../images/home/h_cart.png") top  center no-repeat;
+	font-family:"ALKATIP Basma Tom";
+}
+div.Header div.col_1 .cart_icon:hover{
+ background-position:center -43px;
+}
+div.Header div.col_1 .cart_icon .san{
+	position:absolute;
+	margin-right: 16px;
+	margin-top: 5px;
+	display:block;
+	width:14px;
+	height:14px;
+	line-height:18px;
+	direction:rtl;
+	text-align:center;
+	color:#a4a4a4;
+	font-size:10px;
+	font-family:"ALKATIP Basma Tom";
+	background:url("../images/home/h_cart_a.png") top  center no-repeat;
+}
+/* ---------------------- Logo & Search & Cart ---------------------- */
+/*------------------------error css start---------------------------------*/
+div.npay_seccess{
+	width:1198px;
+	margin:10px 0px;
+	padding:0px;
+	float: right;
+	border: 1px solid  #CECCCC;
+	padding: 20px 0px 30px 0px;
+	background:url(eroor_bg.png) repeat  #F1F1F1;
+	font-family:"ALKATIP Basma Tom";
+}
+.npay_seccess_top{
+	height:100px;
+	width:1200px;
+	line-height:100px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.npay_seccess .error_note{
+	width:100%;
+	float:right;
+}
+div.npay_seccess .error_note .mistake{
+	margin:0;
+	padding:0;
+	width:100%;
+    float:right;
+	font-size:20px;
+	color:#cc0033;
+	text-align:center;
+	height:120px;
+	font-family:"ALKATIP Basma Tom";	
+}
+div.npay_seccess .error_note .mistake span{
+	background: url("../images/home/error_warning.png") center no-repeat;
+	height: 60px;
+	width: 100%;
+	float: right;
+	margin-top: 30px;
+	font-family:"ALKATIP Basma Tom";
+}
+div.npay_seccess .error_note .mistake_error{
+	margin:0;
+	padding:0;
+	width:100%;
+    float:right;
+	font-size:20px;
+	color:#cc0033;
+	text-align:center;
+	font-family:"ALKATIP Basma Tom";
+}
+.warning_text {
+    float: right;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+	font-family:"ALKATIP Basma Tom";
+}
+.warning_text span {
+    width: 41%;
+    height: 50px;
+    float: right;
+    margin-right: 360px;
+    line-height: 30px;
+	font-family:"ALKATIP Basma Tom";
+	
+}
+.nowat_url {
+    width: 100%;
+    height:30px;
+    text-align: center;
+    margin-top: 30px;
+    float: right;
+    color: #666666;
+	font-family:"ALKATIP Basma Tom";
+}
+.nowat_a_url {
+    float: right;
+    width: 100%;
+    height: 70px;
+}
+.div_nowat_ul {
+    width: 746px;
+    height: 57px;
+    float: right;
+    margin-right: 210px;
+    margin-top: 5px;
+    border: solid 1px #CCCCCC;
+	font-family:"ALKATIP Basma Tom";
+}
+.div_nowat_ul ul {
+    float: right;
+    width: 746px;
+    height: 57px;
+	font-family:"ALKATIP Basma Tom";
+}
+.div_nowat_ul ul li {
+    float: right;
+    width: 137px;
+    line-height: 57px;
+    text-align: center;
+	font-size: 18px;
+	font-family:"ALKATIP Basma Tom";
+}
+.div_nowat_ul ul li a{
+	color:#676767;
+}
+.div_nowat_ul ul li a:hover{
+	color:#cc0033;
+}
+i.spr_test {
+	float: right;
+	_font-size: 0px;
+	height: 20px;
+	margin-top: 18px;
+	margin-right: 6px;	
+	margin-left: 5px;
+	border-right: 1px solid #b9b9ba;
+	font-family:"ALKATIP Basma Tom";
+}
+/*------------------------error css end---------------------------------*/
+#minichat{ background-color: #F8F8F8;z-index:999;
+box-shadow: -2px -1px 15px #888888}
+#minichat #inputcontent{direction: rtl;}
+#minibottom{display: none}
+.triangle-left,.triangle-right{
+	direction: rtl;
+}
+button.chatSubmit{
+	border: 1px solid #eee;
+	background-color: #CC0033;
+	padding: 8px 10px;
+	font-size: 14px;
+	color: aliceblue;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family:"ALKATIP Basma Tom";
+}
+#minimainchatbottombtnssendbtn .chatSubmit{
+	background-color: #03A9F4;
+}
